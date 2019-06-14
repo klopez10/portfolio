@@ -1,27 +1,44 @@
 /* Universal */
+h1 {
+  text-align: center;
+}
+
+/* Navigation */
 nav {
   position: fixed;
   top: 0;
 
-  background: black;
+  background: #fcc785;
   width: 100%;
 }
 
 li {
   list-style-type: none;
+
+  display: inline-block;
+
+  padding-right: 50px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: #4b7760;
+  color: blue;
 }
 
-h1 {
-  text-align: center;
+#float_left, #float_right {
+  padding: 15px 100px;
+}
+
+#float_left {
+  float: left;
+}
+
+#float_right {
+  float: right;
 }
 
 /* Homepage */
@@ -32,11 +49,11 @@ h1 {
 .home header {
 	color: #f8f9fa;
 	
-	height: 100vh;
-	background-image: url('../img/hero.JPG');
+	height: 95vh;
+	background-image: url('../assets/pattern.svg');
   background-size: cover;
 
-  opacity: 0.75;
+  opacity: 0.5;
 	
 	display: flex;
 	flex-direction: column;
