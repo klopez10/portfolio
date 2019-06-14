@@ -1,28 +1,47 @@
-/* My Awesome Styles */
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-* {
-    outline: 1px dotted black;
-}
-
 /* Universal */
-h1 {
-  font-size: 5em;
-  text-align: center;
-  text-transform: uppercase;
+nav {
+  position: fixed;
+  top: 0;
+
+  background: black;
+  width: 100%;
 }
 
-h1 span:nth-child(even) {
-  color: thistle;
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #4b7760;
+}
+
+h1 {
+  text-align: center;
 }
 
 /* Homepage */
 .home {
-  background: teal;
+  background: #f8f9fa;
+}
+
+.home header {
+	color: #f8f9fa;
+	
+	height: 100vh;
+	background-image: url('../img/hero.JPG');
+  background-size: cover;
+
+  opacity: 0.75;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Bio */
@@ -37,7 +56,7 @@ h1 span:nth-child(even) {
 
 /* Portfolio */
 figure {
-  background: #c0ffee;
-  padding: 1em;
   width: 200px;
+
+  display: inline-block;
 }
