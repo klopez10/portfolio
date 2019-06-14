@@ -1,6 +1,6 @@
 /* Universal */
-h1 {
-  text-align: center;
+* {
+  font-family: sans-serif;
 }
 
 /* Navigation */
@@ -16,7 +16,6 @@ li {
   list-style-type: none;
 
   display: inline-block;
-
   padding-right: 50px;
 }
 
@@ -41,15 +40,14 @@ a:hover {
   float: right;
 }
 
-/* Homepage */
+/* Landing Page */
 .home {
   background: #f8f9fa;
 }
 
-.home header {
-	color: #f8f9fa;
-	
-	height: 95vh;
+header {	
+  margin-top: 15px;
+  height: 90vh;
 	background-image: url('../assets/pattern.svg');
   background-size: cover;
 
@@ -61,19 +59,28 @@ a:hover {
 	align-items: center;
 }
 
+/* Gallery */
+.gallery {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery figure {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+
+  overflow: hidden;
+}
+
 /* Bio */
-.bio {
-  background: turquoise;
+.bio header {
+  height: 50vh;
 }
 
 /* Contact */
-.contact {
-  background: thistle;
-}
-
-/* Portfolio */
-figure {
-  width: 200px;
-
-  display: inline-block;
+.contact header {
+  height: 50vh;
 }
