@@ -1,7 +1,7 @@
 console.log('OK');
 
 // Portfolio
-$('.portfolio').Chocolat({
+$('.gallery').Chocolat({
 
     enableZoom: false
 });
