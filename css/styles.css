@@ -51,7 +51,7 @@ a:hover {
 header {	
   margin-top: 15px;
   height: 85vh;
-	background-image: url('../assets/Pattern.svg');
+	background-image: url('../assets/pattern.svg');
   background-size: cover;
 
   opacity: 0.5;
@@ -106,26 +106,6 @@ figcaption {
   height: 50vh;
 }
 
-section {
-  margin: 100px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-section img {
-  width: 60%;
-}
-
-section p {
-  font-size: 1.25em;
-  background-color: #fcc785;
-  padding: 20px;
-  width: 32%;
-  height: 458px;
-  float: right;
-  margin-top: -560px;
-}
-
 /* Contact */
 .contact header {
   height: 50vh;
@@ -146,5 +126,4 @@ input, textarea {
 }
 #send:hover {
   background-color: #fcc785;
-  color: white;
 }
