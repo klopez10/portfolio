@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Swoop: Contact</title>
+    <title>Contact</title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -36,15 +36,21 @@
     </nav>
 
     <form action="https://formspree.io/swoop@ewu.edu" method="POST">
-        <label for="name">Name</label>
-        <input type="text" name="name">
+        <section>
+            <input type="text" name="name" placeholder="First and Last Name, Please *" required>
+        </section>
 
-        <label for="_replyto">Email</label>
-        <input type="email" name="_replyto">
+        <section>
+            <input type="email" name="_replyto" placeholder="Email Address *" required>
+        </section>
 
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-        <input type="submit" value="Send">
+        <section>
+            <textarea name="comments" placeholder="How can I help you? *" required></textarea>
+        </section>
+        
+        <section>
+            <input type="submit" value="Send" id="send">
+        </section>
     </form>
 
     <!-- jQuery -->

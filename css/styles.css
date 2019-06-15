@@ -77,7 +77,7 @@ header h2 {
 }
 
 /* Gallery */
-.gallery {
+.gallery, form {
   margin-top: 60px;
   margin-bottom: 40px;
   text-align: center;
@@ -109,4 +109,21 @@ figcaption {
 /* Contact */
 .contact header {
   height: 50vh;
+}
+
+form section {
+  display: block;
+  margin: 20px;
+}
+
+input, textarea {
+  width: 60%;
+  padding: 10px;
+}
+
+#send {
+  width: 20%;
+}
+#send:hover {
+  background-color: #fcc785;
 }
